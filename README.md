@@ -29,8 +29,12 @@ The primary goal of this project is to analyze a retail dataset to identify **Cu
 ---
 
 ### 📸 Dashboard Preview
-![Dashboard Screenshot](PASTE_YOUR_IMAGE_LINK_HERE)
-*(Note: Upload your dashboard screenshot to your GitHub repository and replace the link above)*
+
+<p align="center">
+  <img src="https://github.com/Aditya-Raj-Achyut/Customer_Behaviour_Analyiss/blob/main/Screenshot%202026-02-12%20175138.png?raw=true" width="800" title="Customer Behavior Dashboard">
+</p>
+
+*(Note: Click on the image to view it in full resolution)*
 
 ---
 
