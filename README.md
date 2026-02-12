@@ -24,7 +24,7 @@ The primary goal of this project is to analyze a retail dataset to identify **Cu
 ### 🔍 Key Insights
 * **Customer Segmentation:** The 35-50 age demographic contributes to 45% of total revenue.
 * **Retention Issues:** Identified that 20% of customers have not made a purchase in the last 6 months (High Churn Risk).
-* **Category Performance:** The "Electronics" category has the highest profit margin (12%) but also the highest return rate.
+* **Category Performance:** The "Clothing" category has the highest profit margin (12%) but also the highest return rate.
 
 ---
 
