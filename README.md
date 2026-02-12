@@ -8,8 +8,8 @@ The primary goal of this project is to analyze a retail dataset to identify **Cu
 ### 🛠️ Tech Stack Used
 * **Data Cleaning & Manipulation:** Python (Pandas, NumPy)
 * **Database Management:** SQL (MySQL/SQLite)
-* **Data Visualization:** Power BI & Seaborn/Matplotlib
-* **Environment:** Jupyter Notebook / Google Colab
+* **Data Visualization:** Power BI 
+* **Environment:** Jupyter Notebook 
 
 ---
 
