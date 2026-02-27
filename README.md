@@ -35,7 +35,7 @@ Customer_Behaviour_Analysis/
 
 ## 📊 Project Workflow
 
-1. **Data Extraction** — Raw dataset sourced from [Kaggle](https://www.kaggle.com/) *(add your exact dataset link here)*
+1. **Data Extraction** — Raw dataset included in this repo: [customer_shopping_behavior.csv](customer_shopping_behavior.csv)
 2. **SQL Analysis** — Loaded data into a database to calculate KPIs like Revenue per Customer and Churn Rate
 3. **Python EDA** — Exploratory Data Analysis to detect outliers, handle missing values, and analyze correlations
 4. **Dashboarding** — Designed an interactive Power BI dashboard to visualize high-level business insights
@@ -94,7 +94,7 @@ Open `Customer_Behavior_Dashboard_view.pbix` using **Power BI Desktop** (free do
 
 ## 📦 Dataset
 
-- **Source:** Kaggle — *(replace this with the actual dataset URL)*
+- **Source:** [customer_shopping_behavior.csv](customer_shopping_behavior.csv) (included in this repository)
 - **File:** `customer_shopping_behavior.csv`
 
 ---
