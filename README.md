@@ -1,50 +1,111 @@
 # 🚀 Customer Behavior Analysis | End-to-End Data Project
 
-### 📌 Project Overview
-The primary goal of this project is to analyze a retail dataset to identify **Customer Purchasing Patterns**. I performed the end-to-end data lifecycle: extracting raw data, cleaning it using SQL and Python, and finally building an interactive Power BI dashboard to support data-driven business decisions.
+## 📌 Project Overview
+
+The primary goal of this project is to analyze a retail dataset to identify **Customer Purchasing Patterns**. This project covers the complete end-to-end data lifecycle: extracting raw data, cleaning and analyzing it using SQL and Python, and finally building an interactive Power BI dashboard to support data-driven business decisions.
 
 ---
 
-### 🛠️ Tech Stack Used
-* **Data Cleaning & Manipulation:** Python (Pandas, NumPy)
-* **Database Management:** SQL (MySQL/SQLite)
-* **Data Visualization:** Power BI 
-* **Environment:** Jupyter Notebook 
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Python (Pandas, NumPy, Matplotlib, Seaborn) | Data Cleaning & EDA |
+| SQL (MySQL / SQLite) | KPI Queries & Aggregations |
+| Power BI | Interactive Dashboard |
+| Jupyter Notebook | Analysis Environment |
 
 ---
 
-### 📊 Project Workflow
-* **Data Extraction:** Extracted raw datasets from Kaggle.
-* **SQL Analysis:** Loaded data into a database to calculate key performance indicators (KPIs) like Revenue per Customer and Churn Rate.
-* **Python EDA:** Performed Exploratory Data Analysis to detect outliers, handle missing values, and analyze correlations.
-* **Dashboarding:** Designed a final interactive dashboard in Power BI to visualize high-level business insights.
+## 📁 Project Structure
+
+```
+Customer_Behaviour_Analysis/
+│
+├── Customer_Behavior_Analysis.ipynb       # Main Python EDA notebook
+├── customer_behavior_sql_queries.sql      # SQL queries for KPI analysis
+├── customer_shopping_behavior.csv         # Raw dataset
+├── Customer_Behavior_Dashboard_view.pbix  # Power BI dashboard file
+├── Screenshot 2026-02-12 175138.png       # Dashboard preview
+├── requirements.txt                       # Python dependencies
+└── README.md
+```
 
 ---
 
-### 🔍 Key Insights
-* **Customer Segmentation:** The 35-50 age demographic contributes to 45% of total revenue.
-* **Retention Issues:** Identified that 20% of customers have not made a purchase in the last 6 months (High Churn Risk).
-* **Category Performance:** The "Clothing" category has the highest profit margin (12%) but also the highest return rate.
+## 📊 Project Workflow
+
+1. **Data Extraction** — Raw dataset sourced from [Kaggle](https://www.kaggle.com/) *(add your exact dataset link here)*
+2. **SQL Analysis** — Loaded data into a database to calculate KPIs like Revenue per Customer and Churn Rate
+3. **Python EDA** — Exploratory Data Analysis to detect outliers, handle missing values, and analyze correlations
+4. **Dashboarding** — Designed an interactive Power BI dashboard to visualize high-level business insights
 
 ---
 
-### 📸 Dashboard Preview
+## 🔍 Key Insights
 
-<p align="center">
-  <img src="https://github.com/Aditya-Raj-Achyut/Customer_Behaviour_Analyiss/blob/main/Screenshot%202026-02-12%20175138.png?raw=true" width="800" title="Customer Behavior Dashboard">
-</p>
-
-*(Note: Click on the image to view it in full resolution)*
+- **Customer Segmentation:** The 35–50 age demographic contributes ~45% of total revenue
+- **Retention Issues:** ~20% of customers have not made a purchase in the last 6 months (High Churn Risk)
+- **Category Performance:** The "Clothing" category has the highest profit margin (~12%) but also the highest return rate
 
 ---
 
-### 📈 How to Run This Project
-1. **Clone the repository:** `git clone https://github.com/Aditya-Raj-Achyut/Customer_Behaviour_Analyiss.git`
-2. **Launch the Jupyter Notebook:** `jupyter notebook customer_analysis.ipynb`
-3. **View the Dashboard:** Open the `.pbix` file using Power BI Desktop.
+## 📸 Dashboard Preview
+
+![Customer Behavior Dashboard](Screenshot%202026-02-12%20175138.png)
+
+> *Open the `.pbix` file in Power BI Desktop for the full interactive experience*
 
 ---
 
-### 💡 Business Recommendations
-* **Loyalty Program:** Implement a reward system for high-spending segments to reduce churn.
-* **Marketing Strategy:** Focus social media ad spend on the 18-24 age group, as they show high engagement despite lower current spending.
+## ▶️ How to Run This Project
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Aditya-Raj-Achyut/Customer_Behaviour_Analyiss.git
+cd Customer_Behaviour_Analyiss
+```
+
+### 2. Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the Jupyter Notebook
+```bash
+jupyter notebook Customer_Behavior_Analysis.ipynb
+```
+
+### 4. View the SQL Queries
+Open `customer_behavior_sql_queries.sql` in any SQL client (MySQL Workbench, DBeaver, SQLite Browser, etc.)
+
+### 5. View the Dashboard
+Open `Customer_Behavior_Dashboard_view.pbix` using **Power BI Desktop** (free download from Microsoft)
+
+---
+
+## 💡 Business Recommendations
+
+- **Loyalty Program:** Implement a reward system for high-spending segments (35–50 age group) to reduce churn
+- **Marketing Strategy:** Focus social media ad spend on the 18–24 age group — they show high engagement despite lower current spending
+- **Return Rate Management:** Investigate quality or sizing issues in the Clothing category to reduce return rates despite high profit margins
+
+---
+
+## 📦 Dataset
+
+- **Source:** Kaggle — *(replace this with the actual dataset URL)*
+- **File:** `customer_shopping_behavior.csv`
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙋 Author
+
+**Aditya Raj Achyut**  
+[GitHub Profile](https://github.com/Aditya-Raj-Achyut)
